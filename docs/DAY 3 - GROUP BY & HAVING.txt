@@ -1,0 +1,39 @@
+DAY 3 - GROUP BY & HAVING
+
+Query 1:
+Number of Models by Brand
+
+Insight:
+Mercedes-Benz has the largest EV portfolio in the dataset, indicating strong product diversification.
+
+-------------------------------------------------
+
+Query 2:
+Average Range by Brand
+
+Insight:
+Lucid has the highest average driving range, highlighting its focus on long-range EV technology.
+
+-------------------------------------------------
+
+Query 3:
+Average Range by Drivetrain
+
+Insight:
+AWD vehicles show the highest average range. Many premium long-range EVs use AWD configurations.
+
+-------------------------------------------------
+
+Query 4:
+Maximum Range by Brand
+
+Insight:
+Mercedes-Benz contains the vehicle with the highest range in the dataset.
+
+-------------------------------------------------
+
+Query 5:
+Average Range by Segment
+
+Insight:
+The F-Luxury segment has the highest average range, suggesting luxury EVs prioritize long-distance capability.

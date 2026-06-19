@@ -1,0 +1,89 @@
+DAY 6 - SUBQUERIES & CTEs
+
+Topics Covered:
+- Subqueries
+- Common Table Expressions (CTEs)
+
+=================================================
+
+Query 1:
+Highest Average Battery Capacity Brand
+
+Purpose:
+Identify the manufacturer with the highest average battery capacity.
+
+Insight:
+Mercedes-Benz has the highest average battery capacity among all manufacturers in the dataset.
+
+=================================================
+
+Query 2:
+Vehicle with the Highest Battery Capacity
+
+Purpose:
+Identify the EV model with the largest battery pack.
+
+Insight:
+Mercedes-Benz EQS 450 4MATIC has the highest battery capacity in the dataset.
+
+=================================================
+
+Query 3:
+Brands with Average Battery Capacity Greater Than 80 kWh
+
+Purpose:
+Identify manufacturers focusing on long-range and premium EVs.
+
+Insight:
+The following brands have average battery capacities above 80 kWh:
+
+- Maserati
+- Elaris
+- Audi
+- Volvo
+- Cadillac
+- Polestar
+- VinFast
+- Porsche
+- Lucid
+- Rolls-Royce
+- Jaguar
+- Lotus
+- Hongqi
+- Mercedes-Benz
+- NIO
+- XPENG
+- Voyah
+- BMW
+- Maxus
+
+These brands primarily operate in premium, luxury, or long-range EV segments.
+
+=================================================
+
+Key Learnings:
+
+1. Subqueries allow one query to use the result of another query.
+
+2. CTEs improve readability and simplify complex SQL logic.
+
+3. CTEs are useful for breaking large analytical queries into manageable steps.
+
+4. Subqueries are commonly used for comparisons against aggregate values such as averages and maximums.
+
+=================================================
+
+Business Relevance:
+
+CTEs and Subqueries are frequently used in:
+- KPI calculations
+- Dashboard development
+- Customer segmentation
+- Product performance analysis
+- Financial reporting
+- Business intelligence solutions
+
+=================================================
+
+Day 6 Status:
+Completed

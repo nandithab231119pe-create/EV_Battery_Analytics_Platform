@@ -1,0 +1,70 @@
+DAY 4 - SQL JOINS
+
+Topic Covered:
+- INNER JOIN
+- LEFT JOIN
+
+=================================================
+
+Query 1:
+Join EV specifications with charging specifications.
+
+Purpose:
+Combine vehicle data with charging-related information.
+
+Insight:
+INNER JOIN successfully combined EV specification data with charging category information using the brand column.
+
+=================================================
+
+Query 2:
+Count models by charging category.
+
+Purpose:
+Determine which charging category contains the largest number of EV models.
+
+Insight:
+The Fast charging category contains the highest number of EV models among the brands included in the charging specifications table.
+
+=================================================
+
+Query 3:
+Average range by charging category.
+
+Purpose:
+Compare driving range across charging categories.
+
+Insight:
+The Ultra Fast charging category has the highest average driving range, indicating that premium long-range EVs are more likely to support ultra-fast charging capabilities.
+
+=================================================
+
+Key Learnings:
+
+1. INNER JOIN returns only matching records from both tables.
+
+2. LEFT JOIN returns all records from the left table and matching records from the right table.
+
+3. LEFT JOIN is useful when some data may be missing in the second table.
+
+4. JOINS allow analysts to combine information stored in multiple tables.
+
+5. Most real-world databases require JOIN operations because data is rarely stored in a single table.
+
+=================================================
+
+Business Relevance:
+
+Using JOINs, analysts can combine:
+- Vehicle specifications
+- Charging information
+- Sales data
+- Customer data
+- Service records
+
+to generate richer business insights and support business decision-making.
+
+=================================================
+
+Day 4 Status:
+Completed

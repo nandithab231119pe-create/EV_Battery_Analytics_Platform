@@ -1,0 +1,72 @@
+DAY 5 - WINDOW FUNCTIONS
+
+Topics Covered:
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
+- PARTITION BY
+
+=================================================
+
+Query 1:
+Highest Range Vehicle within Each Brand
+
+Purpose:
+Identify the top-performing EV model for every manufacturer.
+
+Insight:
+Window functions allow ranking vehicles separately within each brand using PARTITION BY.
+
+=================================================
+
+Query 2:
+Top Battery Capacity Vehicles
+
+Purpose:
+Rank EVs based on battery capacity.
+
+Insight:
+Mercedes-Benz contains the EV with the highest battery capacity in the dataset.
+
+=================================================
+
+Query 3:
+Most Efficient EVs
+
+Purpose:
+Identify vehicles with the lowest energy consumption.
+
+Insight:
+Dacia appears as the most efficient EV brand in the dataset based on Wh/km consumption.
+
+=================================================
+
+Key Learnings:
+
+1. ROW_NUMBER() assigns a unique sequence number to each row.
+
+2. RANK() assigns the same rank to tied values and skips subsequent ranks.
+
+3. DENSE_RANK() assigns the same rank to tied values without skipping subsequent ranks.
+
+4. PARTITION BY creates separate rankings within groups.
+
+5. Window functions are useful for Top-N analysis and ranking problems.
+
+=================================================
+
+Business Relevance:
+
+Window functions are commonly used for:
+
+- Top performing products
+- Best-selling vehicles
+- Customer ranking
+- Revenue ranking
+- Market share analysis
+- Leaderboards and dashboards
+
+=================================================
+
+Day 5 Status:
+Completed

@@ -1,0 +1,60 @@
+DAY 7 - CASE WHEN & COALESCE
+
+Topics Covered:
+- CASE WHEN
+- COALESCE
+- Business Report Queries
+
+=================================================
+
+Insights:
+
+Premium EV Count:
+6
+
+Standard EV Count:
+233
+
+Entry EV Count:
+239
+
+Observation:
+The majority of EVs in the dataset belong to the Standard and Entry categories, while only a small number qualify as Premium range vehicles (>600 km).
+
+=================================================
+
+Most Efficient Brand:
+Dacia
+
+Observation:
+Dacia demonstrates the lowest average energy consumption (Wh/km), making it the most efficient manufacturer in the dataset.
+
+=================================================
+
+Top 5 Brands by Average Range:
+
+1. Lucid
+2. Porsche
+3. Tesla
+4. Lotus
+5. Audi
+
+Observation:
+These brands focus heavily on long-range EVs and premium battery technology.
+
+=================================================
+
+Key Learnings:
+
+1. CASE WHEN enables conditional categorization of records.
+
+2. COALESCE handles NULL values and improves data quality for reporting.
+
+3. Business report queries combine filtering, grouping, aggregation and conditional logic.
+
+4. SQL can be used not only to retrieve data but also to generate business-ready insights.
+
+=================================================
+
+Day 7 Status:
+Completed

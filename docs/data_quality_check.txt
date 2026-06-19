@@ -1,0 +1,29 @@
+Dataset Name:
+Electric Vehicle Specifications Dataset 2025
+
+Rows:
+478
+
+Columns:
+22
+
+Duplicate Rows:
+0
+
+Missing Values:
+number_of_cells -> 202
+towing_capacity_kg -> 26
+torque_nm -> 7
+fast_charge_port -> 1
+fast_charging_power_kw_dc -> 1
+model -> 1
+cargo_volume_l -> 1
+
+Status:
+Dataset suitable for analytics and dashboard development.
+
+Observations:
+- Dataset contains EV specifications from multiple brands.
+- Battery capacity and range columns are suitable for analytics.
+- No duplicate records found.
+- Some missing values exist but do not prevent analysis.
