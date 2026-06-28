@@ -21,7 +21,7 @@ page = st.sidebar.selectbox(
     ["Battery Analytics", "EV Market Analytics"]
 )
 
-ev = pd.read_excel("C:/Users/nandi/OneDrive/Documents/academics/ev_battery_analytics/data/kaggle_dataset/electric_vehicles_specs_2025.csv.xlsx")
+ev = pd.read_excel("data/kaggle_dataset/electric_vehicles_specs_2025.csv.xlsx")
 
 if page == "Battery Analytics":
     st.header("Battery Health Analytics")
